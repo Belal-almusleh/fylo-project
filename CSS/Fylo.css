@@ -1,0 +1,355 @@
+/*Libre Baskerville */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&family=Quicksand:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700&display=swap');
+/*Mooli*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mooli&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&family=Quicksand:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700&display=swap');
+/*Barlow Condensed */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mooli&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&family=Quicksand:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700&display=swap');
+/*Raleway*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mooli&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700&display=swap');
+/*Opens sans */ 
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mooli&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700&display=swap');
+* {
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+/* Variables */ 
+:root {
+    --font1:'Libre Baskville';
+    --font2:'Mooli';
+    --font3:'Barlow Condensed';
+    --font4:'Raleway';
+    --font5:'Open Sans';
+    --Very-Dark-Blue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+    --Bright-Blue: hsl(224, 93%, 58%);
+    --Moderate-Cyan: hsl(170, 45%, 43%);
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --Light-Gray: hsl(0, 0%, 75%);
+    --body-font-size:16px;
+}
+/* Variables */ 
+
+.container {
+    margin: 0 5%;;
+}
+body{
+    font-family: var(--font5),sans-serif;
+    font-weight:400;
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6,nav{
+    font-family: var(--font4),serif;
+}
+/* Start Header */ 
+header .container .navbar
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+header .container nav ul{
+    display: flex;
+    align-items: center;
+    }
+header .container nav ul li a{
+    margin: 0 30px;
+    color: var(--Very-Dark-Blue);
+    font-family: var(--font4), sans-serif;
+}
+header .container .row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-wrap:wrap-reverse;
+}
+header .container .row .col-left{
+    flex-basis: 45%;
+}
+header .container .row .col-left h1{
+    font-size: 40px;
+    line-height: 1.7;
+}
+header .container .row .col-left p{
+    margin: 30px 0;
+}
+header .container .row .col-left  section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header .container .row .col-left  section input {
+    flex-basis: 65%;
+    padding: 15px;
+    margin-right: 3%;
+}
+header .container .row .col-left  section button{  
+    flex-basis: 30% ;
+    background: var(--Bright-Blue);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+header .container .row .col-right{
+    flex-basis: 50%;
+}
+header .container .row .col-right img{
+    max-width: 100% ;
+}
+
+@media (max-width:750px){
+    header .container .row{
+        justify-content: center;
+    }
+    header .container .navbar img{
+        width: 30%;
+    }
+    header .container nav ul li a{
+        margin:0 10px;
+        font-size: 13px;
+    }
+    header .container .row .col-left  section input{
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+    header .container .row .col-left  section button{
+        margin-top: 15px;
+        flex-basis: 100%;
+        padding: 15px;
+    }
+    header .container .row .col-left{
+        flex-basis: 100%;
+    }
+    header .container .row .col-right{
+        flex-basis: 100%;
+    }
+}
+
+
+/* Start Team Section */ 
+
+.team {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url('../Images/bg-curve-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.team .row-team {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+.team .col-left-t{
+    flex-basis: 48%;
+}
+.team .col-left-t h1{
+    font-size: 40px;
+    line-height: 1.7;
+}
+.team .col-left-t .para p {
+    margin: 30px 0;
+}
+.team .col-left-t a {
+    color: var(--Moderate-Cyan);
+    font-weight: 600;
+    border-bottom: var(--Moderate-Cyan) 2px solid;
+    padding-bottom: 3px;
+}
+.team .col-left-t a img{
+    height: 25px;
+    width: 25px;
+   position: relative;
+   bottom: -7px;
+   right: -5px;
+}
+.team .col-left-t .text {
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px lightgray;
+    min-width: 80%;
+}
+.team .col-left-t .text q{
+    font-weight: 500;
+    line-height: 1.75;
+}
+.team .col-left-t .text .profile {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.team .col-left-t .text .profile .pic img{
+    border-radius: 50%;
+}
+.team .col-left-t .text .profile .position{
+    margin-left: 25px;
+}
+.team .col-left-t .text .profile .position h5{
+    font-weight: 800;
+    font-size: 15px;
+    margin: 10px 0;
+}
+.team .col-right-t{
+    flex-basis: 50%;
+}
+.team .row-team .col-right-t img{
+    max-width: 100%;
+}
+
+@media(max-width:750px){
+    .team .col-left-t{
+        flex-basis: 100%;
+    }
+    .team .col-right-t{
+        flex-basis: 100%;
+    }
+    .team .col-right-t img{
+        max-width: 100%;
+    }
+    .team .col-left-t .a{
+    display: flex;
+    justify-content: center;
+    }
+}
+
+/* End Team */ 
+
+/* Start Sign In */ 
+.sign-in {
+    background-color: var(--Desaturated-Blue);
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+.sign-in .details {
+    display: flex;
+   gap: 25px;
+}
+.sign-in .details .text>* {
+    margin: 25px 0 ;
+}
+.sign-in .details .text{
+    width: 50%;
+}
+.sign-in .details .text h2 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 26pt;
+    font-weight: 700;
+}
+.sign-in .details .text p{
+    color: var(--Light-Gray);
+    line-height: 1.5;
+}
+.sign-in .details .subscribe {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 125px;
+}
+.sign-in .details .subscribe>*{
+    display: inline-block;
+    width: 100%;
+}
+.sign-in .details .subscribe input{
+    height: 30%;
+    padding: 25px 15px;
+
+}
+.sign-in .details .subscribe button{
+    min-width:40%;
+    max-width: 45%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: var(--Bright-Blue);
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width:750px){
+    .sign-in .details{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sign-in .details .text{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .sign-in .details .subscribe{
+        flex-basis: 100%;
+        justify-content: center;
+    }
+    .sign-in .details .subscribe button {
+       min-width: 100%;
+}}
+
+/* End Sign In */ 
+
+/* Start Footer */ 
+footer{
+    background-color: var(--Very-Dark-Blue);
+    padding-top: 75px;
+}
+footer p, footer a, footer i {
+    color: var(--Light-Gray);
+}
+footer .container>img {
+    margin-bottom: 15px;
+}
+footer .row-f {
+    display: grid;
+    grid-template-columns: 2fr repeat(3,1fr);
+ }
+ footer .row-f .col-1 .info {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+ }
+ footer .row-f .col-2 li{
+    margin-bottom: 2rem;
+ }
+ footer .row-f .col-3 li{
+    margin-bottom: 2rem;
+ }
+ footer .row-f .col-4  {
+    display: flex;
+    justify-content: space-evenly;
+ }
+ footer .row-f .col-4 i {
+    border: 1px var(--Light-Gray) solid;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+ }
+ @media(550px<= width <=749px){
+
+ }
+
+ @media(max-width:600px){
+    footer .row-f {
+        grid-template-columns:minmax(0,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+    footer .row-f .col-4 {
+        justify-content: center;
+    }
+    footer .row-f .col-4 a {
+        margin: 0 2rem;
+    }
+ }
+/* Footer End */ 
